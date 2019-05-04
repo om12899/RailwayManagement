@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.detailsController">
+   <children>
+      <Text layoutX="60.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1.Nashik" wrappingWidth="370.7294921875" />
+      <Text layoutX="60.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2.Mumbai" />
+      <Text layoutX="60.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3.Hyderabad" />
+      <Text layoutX="60.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4.Chennai" />
+      <Text layoutX="60.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5.Delhi" />
+      <Text layoutX="60.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6.Kolkata" />
+      <Text layoutX="60.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7.Pune" />
+      <Text layoutX="60.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8.Goa" />
+      <Text layoutX="60.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9.Indore" />
+      <Text layoutX="60.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10.Amritsar" />
+      <Text layoutX="60.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="11.Ranchi" />
+      <Text layoutX="60.0" layoutY="261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12.Bangalore" />
+      <Text layoutX="56.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="13.Ahmedabad" />
+      <Text layoutX="56.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="14.Jaipur" />
+      <Text layoutX="56.0" layoutY="309.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15.Patna" />
+      <Text layoutX="36.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We provide trains from and to all of the following destinations">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Button fx:id="btnBack" layoutX="264.0" layoutY="333.0" mnemonicParsing="false" onAction="#setBtnBack" text="Go Back" />
+   </children>
+</AnchorPane>
